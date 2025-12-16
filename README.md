@@ -14,9 +14,6 @@
 -   [Diagram Sistem](#-diagram-sistem)
 -   [Struktur Database](#-struktur-database)
 -   [Data Dictionary](#-data-dictionary)
--   [Tech Stack](#-tech-stack)
--   [Cara Menjalankan Aplikasi](#-cara-menjalankan-aplikasi)
--   [Informasi Pengerjaan](#-informasi-pengerjaan)
 
 ---
 
@@ -218,17 +215,14 @@ Sistem CRM berbasis web yang dapat mengintegrasikan seluruh proses dari lead man
 
 ## 📊 Diagram Sistem
 
-Diagram sistem lengkap dapat diakses melalui link berikut:
+Diagram sistem dapat diakses melalui link berikut:
 
-**🔗 [System Architecture Diagram](https://drive.google.com/file/d/1XBDM5qLE9YsH6Q4O4C7TG-1lEyHbkfWW/view?usp=sharing)**
+**🔗 [System Diagrams](https://drive.google.com/file/d/1XBDM5qLE9YsH6Q4O4C7TG-1lEyHbkfWW/view?usp=sharing)**
 
-Diagram mencakup:
+Diagram yang tersedia:
 
--   **Entity Relationship Diagram (ERD)**
--   **System Architecture**
--   **User Flow Diagram**
--   **Database Schema**
--   **API Endpoints Structure**
+-   **Activity Diagram**: Menggambarkan alur aktivitas sistem dari lead hingga customer conversion
+-   **Sequence Diagram**: Menunjukkan interaksi antar komponen dalam proses approval workflow
 
 ---
 
@@ -521,63 +515,3 @@ psql -U postgres -d endrico_crm -f dump-endrico_crm-202512160826.sql
 ```
 
 ---
-
-## ⏱️ Informasi Pengerjaan
-
-### **Timeline Pengembangan**
-
--   **Durasi**: 2 minggu (14 hari kerja)
--   **Periode**: Desember 2024
--   **Metodologi**: Agile Development dengan iterative approach
-
-### **Breakdown Pengerjaan**:
-
-#### **Week 1: Foundation & Core Features**
-
--   **Day 1-2**: Project setup, database design, authentication
--   **Day 3-4**: Lead management module
--   **Day 5-6**: Service management dan project creation
--   **Day 7**: Testing dan bug fixing
-
-#### **Week 2: Advanced Features & Polish**
-
--   **Day 8-9**: Approval workflow dan manager interface
--   **Day 10-11**: Customer conversion dan subscription
--   **Day 12-13**: UI/UX improvement, dashboard
--   **Day 14**: Final testing, documentation, deployment prep
-
-### **Development Approach**:
-
-1. **Database-First Design**: Merancang ERD dan struktur database terlebih dahulu
-2. **Feature-Driven Development**: Mengembangkan satu fitur lengkap per iterasi
-3. **Test-Driven Approach**: Testing setiap fitur sebelum melanjutkan
-4. **User-Centric Design**: Fokus pada user experience dan workflow
-
-### **Quality Assurance**:
-
--   **Code Review**: Setiap feature melalui review process
--   **Manual Testing**: Testing komprehensif untuk setiap user role
--   **Cross-Browser Testing**: Kompatibilitas di berbagai browser
--   **Performance Testing**: Optimasi query dan loading time
-
----
-
-## 📞 Support & Contact
-
-Untuk pertanyaan teknis atau support, silakan hubungi:
-
-**Developer**: PT. Smart Development Team  
-**Email**: dev@ptsmart.co.id  
-**Documentation**: [Project Wiki](link-to-wiki)  
-**Issue Tracking**: [GitHub Issues](link-to-issues)
-
----
-
-## 📄 License
-
-This project is proprietary software developed for PT. Smart ISP.  
-© 2024 PT. Smart. All rights reserved.
-
----
-
-**🌟 PT. Smart CRM System - Digitalisasi Proses Bisnis ISP untuk Era Modern**
