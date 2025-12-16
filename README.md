@@ -371,42 +371,22 @@ DB_PASSWORD=
 
 ### **Backend Framework**
 
--   **Laravel 11.x**: PHP framework dengan arsitektur MVC
+-   **Laravel 12.x**: PHP framework dengan arsitektur MVC
 -   **PHP 8.3+**: Server-side programming language
--   **Composer**: Dependency management untuk PHP
 
 ### **Database**
 
 -   **PostgreSQL 14+**: Primary database (production-ready)
--   **SQLite**: Development database (included)
--   **Eloquent ORM**: Database abstraction layer
 
 ### **Frontend**
 
 -   **Blade Templates**: Laravel's templating engine
 -   **Tailwind CSS**: Utility-first CSS framework
--   **Alpine.js**: Lightweight JavaScript framework
--   **Vite**: Modern build tool dan asset bundling
 
 ### **Development Tools**
 
 -   **DBeaver**: Database administration tool
 -   **Draw.io**: System diagram creation
--   **Artisan CLI**: Laravel command-line interface
--   **Tinker**: Laravel REPL untuk testing
-
-### **Authentication & Security**
-
--   **Laravel Breeze**: Authentication scaffolding
--   **CSRF Protection**: Cross-site request forgery protection
--   **Password Hashing**: Bcrypt encryption
--   **Session Management**: Secure session handling
-
-### **Additional Libraries**
-
--   **Carbon**: Date manipulation library
--   **Faker**: Test data generation
--   **PHPUnit**: Unit testing framework
 
 ---
 
